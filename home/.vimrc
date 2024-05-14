@@ -79,10 +79,14 @@ set showcmd
 
 set ignorecase
 set smartcase
+set backspace=indent,eol,start,
 
 set scrolloff=5
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set expandtab
+set autoindent
+set shiftwidth=4
 set background=dark
 set encoding=utf-8
 set updatetime=300
